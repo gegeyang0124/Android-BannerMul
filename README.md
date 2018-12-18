@@ -11,7 +11,9 @@
 ##### 1.在项目依赖中添加 compile 'com.zy:bannermul:1.0.0'
 <img src='./showImg/compile.png' width='400' height='auto'>
 <!--![](./showImg/compile.png)-->
+
 ##### 2.代码调用
+
 ###### 2.1 layout布局文件代码
 ![](./showImg/layout.png)
 
