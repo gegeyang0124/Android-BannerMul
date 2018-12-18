@@ -48,7 +48,7 @@ public class BannerMul extends LinearLayout {
     }
 
     /**
-     * @RequiresApi
+     * //@RequiresApi
      * **/
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public BannerMul(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes)

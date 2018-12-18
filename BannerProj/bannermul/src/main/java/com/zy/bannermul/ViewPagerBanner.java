@@ -16,8 +16,8 @@ public class ViewPagerBanner extends ViewPager {
     }
 
     /**
-     * @Nullable ,可以传入空指针
-     * @Nonnull ,不可以传入空指针
+     * //@Nullable ,可以传入空指针
+     * //@Nonnull ,不可以传入空指针
      * **/
     public ViewPagerBanner(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);

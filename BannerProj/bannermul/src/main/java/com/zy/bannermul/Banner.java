@@ -72,7 +72,7 @@ public class Banner extends LinearLayout
     }
 
     /**
-     * @RequiresApi
+     * //@RequiresApi
      * **/
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public Banner(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes)
