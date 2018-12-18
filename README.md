@@ -1,12 +1,16 @@
 # BannerMul
-轮播UI库，支持图片轮播（每张图片的都可设置停留时间），</br>视频轮播（自动播放，播放完毕可自动切换），</br>并支持多屏或单屏幕，自定义屏幕大小</br>（正在开发封装中）
+轮播UI库，支持图片轮播（每张图片的都可设置停留时间），<br/>
+视频轮播（自动播放，播放完毕可自动切换），<br/>
+并支持多屏或单屏幕，自定义屏幕大小
 
 ### 效果展示
-![](./showImg/banner.gif)
+<img src='./showImg/banner.gif' width='400' height='auto'>
+<!--![](./showImg/banner.gif)-->
 
 ### 使用
 ##### 1.在项目依赖中添加 compile 'com.zy:bannermul:1.0.0'
-![](./showImg/compile.png)
+<img src='./showImg/compile.png' width='400' height='auto'>
+<!--![](./showImg/compile.png)-->
 ##### 2.代码调用
 ###### 2.1 layout布局文件代码
 ![](./showImg/layout.png)
