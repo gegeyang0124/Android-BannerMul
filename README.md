@@ -4,7 +4,7 @@
 并支持多屏或单屏幕，自定义屏幕大小
 
 ### 效果展示
-<img src='./showImg/banner.gif' width='400' height='auto'>
+<img src='./showImg/banner.gif' width='200' height='auto'>
 <!--![](./showImg/banner.gif)-->
 
 ### 使用
@@ -16,7 +16,8 @@
 ![](./showImg/layout.png)
 
 ###### 2.2 Acitivity文件代码
-![](./showImg/activity.png)
+<!--![](./showImg/activity.png)-->
+<img src='./showImg/activity.png' width='400' height='auto'>
 
 ```java
 package com.zy.adproj;
