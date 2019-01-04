@@ -14,7 +14,7 @@
 
 ##### 2.代码调用
 
-###### 2.1 layout布局文件代码
+###### 2.1 layout布局文件代码，Banner是单个轮播（如‘效果展示’的第一个轮播），BannerMul是多个轮播（由Banner构建）
 ![](./showImg/layout.png)
 
 ###### 2.2 Acitivity文件代码
@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(){
         BannerMul bannermul = (BannerMul) findViewById(R.id.bannermul);
-        Banner banner = (Banner) findViewById(R.id.banner);
 
         List<BannerModel> listbm = new ArrayList<>();
 
@@ -96,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
         bannermul.setDataList(listbm);
 
 
+        Banner banner = (Banner) findViewById(R.id.banner);
         List<BannerPage> listAddress3 = new ArrayList<>();
         BannerPage bannerPage31 = new BannerPage("http://static.lexin580.com/files/ProductPicture/150448004601_20180629_0df6e94a-73b9-4b4c-8b44-89bd74755943.jpg",1000);
         listAddress3.add(bannerPage31);
