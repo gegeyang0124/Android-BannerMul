@@ -164,6 +164,7 @@ public class BannerMul extends LinearLayout {
             if(bannerModel.banner != null){
                 bannerModel.banner.setDataList(bannerModel.list,bannerModel.index);
                 //bannerModel.banner.setImgDelyed(bannerModel.imgDelyed);
+                bannerModel.banner.setSlide(bannerModel.isSlide);
                 bannerModel.banner.startBanner();
                 bannerModel.banner.startAutoPlay();
             }
@@ -179,13 +180,4 @@ public class BannerMul extends LinearLayout {
         }
     }
 
-
-    public class Inner {
-        public String ss ="s1";
-
-        private Inner(){
-
-        }
-
-    }
 }

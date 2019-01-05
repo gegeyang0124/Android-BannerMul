@@ -31,6 +31,7 @@ public class BannerModel {
     public int imgDelyed = 1000;//图片轮播延时时间
     public Banner banner = null;//轮播UI
     public int index = -1;//当前插播地址
+    public boolean isSlide = false;//false:不可以滑动；true:可以滑动;默认是false
 
     /**
      * 屏幕一，占屏幕的大小（大于1屏有效） 必传
@@ -69,6 +70,7 @@ public class BannerModel {
     public static String getProxyUrl(String url) {
         return getProxyUrl(null,url);
     }
+
     /**
      * 创建音视频缓存，返回路径
      * @param context Context;//上下文对象
